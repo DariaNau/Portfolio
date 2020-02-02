@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Roboto', sans-serif;
-    color:#eee;
+    color: #eee;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
     /* background: url("https://images.unsplash.com/photo-1507755197527-5c20d252afc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80") no-repeat center fixed;
@@ -49,12 +49,12 @@ body{
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0; 
+    left: 0;
     overflow-x: hidden;
     padding-top: 10%;
 }
 
-.nav_link{
+.nav_link {
     text-align: center;
     text-decoration: none;
     /* font-size: 25px; */
@@ -65,7 +65,7 @@ body{
 
 .nav_link:hover {
     color: #2a2938;
-  }
+}
 
 .nav_link:hover i {
     display: none;
@@ -75,6 +75,7 @@ body{
     padding: 15px 0;
     display: none;
 }
+
 .nav_link:hover b {
     display: block;
 }
@@ -86,9 +87,9 @@ body{
 /* Page Content */
 
 /* .pageContent { */
-    /* width: 95%; */
-    /* float: right; */
-    /* text-align: center; */
+/* width: 95%; */
+/* float: right; */
+/* text-align: center; */
 /* } */
 
 a {
@@ -97,8 +98,8 @@ a {
 }
 
 p {
-font-size: 18px;
-font-weight: 300;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 /* .clearfix {
@@ -107,7 +108,7 @@ font-weight: 300;
 
 /* Landing Page */
 
-#homePage{
+#homePage {
     height: 100vh;
 }
 
@@ -131,38 +132,40 @@ font-weight: 300;
 
 /* Projects Page */
 
-#projectsPage{
+#projectsPage {
     height: 100vh;
-    text-align: center;
+    /* margin: 0 auto;
+    align-content: center;
     justify-content: center;
+
+    text-align: center; */
 }
 
 .project-list {
-   /* width: 500px;
-   height: 460px; */
-   /* background-repeat: no-repeat;
+    /* width: 400px;
+   height: 360px; */
+    /* background-repeat: no-repeat;
    background-size: contain;
    background-position: center; */
+
 }
 
 /* Contact Info Page */
 
-#contactPage{
+#contactPage {
     height: 100vh;
     text-align: center;
     justify-content: center;
 }
 
-.contactLinks{
+.contactLinks {
     text-align: center;
 }
 
-.cont_link{
+.cont_link {
     display: inline;
     margin: 3%;
-    
+
 }
 
 /* Footer */
-
-
