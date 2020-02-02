@@ -3,12 +3,12 @@ const homePage = document.getElementById('homePage');
 const aboutPage = document.getElementById('aboutPage');
 const contactPage = document.getElementById('contactPage');
 const projectsPage = document.getElementById('projectsPage');
-const scrollUp = document.getElementById('scrollUp');
+// const scrollUp = document.getElementById('scrollUp');
 
 
-scrollUp.onclick = function(){
-            homePage.scrollIntoView()
-        }
+// scrollUp.onclick = function(){
+//             homePage.scrollIntoView()
+//         }
 
 for (let link of nav_links) {
     link.onclick = handleLink;

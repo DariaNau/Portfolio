@@ -1,13 +1,10 @@
 /* Global */
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 html{
-    /* font-size: 20px; */
     font-family: 'Roboto', sans-serif;
     color:#eee;
 }
@@ -20,10 +17,10 @@ body{
     background-color: #222;
 }
 
-h1{
+/* h1{
     padding-top: 5%;
     text-align: center;
-}
+} */
 
 /* .background {
     background: url("https://images.unsplash.com/photo-1507755197527-5c20d252afc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80") no-repeat center fixed;
@@ -47,7 +44,6 @@ h1{
 
 .myNav {
     background-color: rgba(170, 146, 172, 0.747);
-    width: 5%;
     height: 100%;
     color: rgb(20, 4, 17);
     position: fixed;
@@ -83,13 +79,17 @@ h1{
     display: block;
 }
 
+/* .nav_link:active {
+    <a class="btn btn-floating pulse"><i class="material-icons">menu</i></a>
+} */
+
 /* Page Content */
 
-.pageContent {
-    width: 95%;
-    float: right;
-    text-align: center;
-}
+/* .pageContent { */
+    /* width: 95%; */
+    /* float: right; */
+    /* text-align: center; */
+/* } */
 
 a {
     text-decoration: none;
@@ -101,39 +101,56 @@ font-size: 18px;
 font-weight: 300;
 }
 
-.clearfix {
+/* .clearfix {
     clear: both;
-}
+} */
 
 /* Landing Page */
 
-#homePage {
+#homePage{
     height: 100vh;
+}
+
+.landing-text {
+    position: absolute;
+    top: 40%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
     text-align: center;
-    justify-content: center;
 }
 
 /* About me Page */
 
 #aboutPage {
     height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
 
 /* Projects Page */
 
-#projectsPag{
+#projectsPage{
     height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
 
-img {
-   width: 300px;
-   height: 240px;
+.project-list {
+   /* width: 500px;
+   height: 460px; */
+   /* background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center; */
 }
 
 /* Contact Info Page */
 
 #contactPage{
     height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
 
 .contactLinks{
@@ -142,12 +159,10 @@ img {
 
 .cont_link{
     display: inline;
-
+    margin: 3%;
+    
 }
 
 /* Footer */
 
-#footer{
-   
-}
 
