@@ -19,7 +19,7 @@ body {
 }
 
 .background {
-  background: rgba(2, 15, 20, 0.568);
+  background: rgba(1, 10, 14, 0.842);
   /* position: fixed;
     bottom: 0px; */
   /* background-size: 100vh; */
@@ -35,7 +35,7 @@ body {
 }
 
 #page-content {
-  margin-left: 70px;
+  margin-left: 90px;
   margin-right: 5px;
 }
 
@@ -107,6 +107,7 @@ i:hover {
 .nav_link:hover {
   color: #eee;
   font-size: 20px;
+  padding: 7px;
 }
 
 /* .nav_link:active i {
