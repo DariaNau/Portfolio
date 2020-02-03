@@ -19,7 +19,7 @@ body {
 }
 
 .background {
-  background: rgba(2, 15, 20, 0.733);
+  background: rgba(2, 15, 20, 0.568);
   /* position: fixed;
     bottom: 0px; */
   /* background-size: 100vh; */
@@ -35,7 +35,7 @@ body {
 }
 
 #page-content {
-  margin-left: 80px;
+  margin-left: 70px;
   margin-right: 5px;
 }
 
@@ -83,7 +83,7 @@ i:hover {
   background-image: linear-gradient(
     to left,
     rgba(1, 7, 10, 0),
-    rgba(218, 255, 117, 0.425)
+    rgba(204, 248, 82, 0.582)
   );
   height: 100%;
   position: fixed;
@@ -91,7 +91,7 @@ i:hover {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 25vh;
+  padding-top: 20vh;
 }
 
 .nav_link {
@@ -240,20 +240,23 @@ i:hover {
 
 .footer {
   align-items: center;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     rgba(1, 7, 10, 0.164),
-    rgba(1, 7, 10, 0.541)
-  );
+    rgba(1, 7, 10, 0.411)
+  ); */
 }
 
 .footer p {
-  margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 0%;
+    margin: 0%;
 }
 
 .show {
   height: 4em;
 }
+
 
 .footer-text {
   color: #ccccc7;
