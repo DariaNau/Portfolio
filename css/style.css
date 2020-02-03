@@ -78,7 +78,7 @@ i:hover {
   background-image: linear-gradient(
     to left,
     rgba(1, 7, 10, 0),
-    rgba(171, 196, 104, 0.582)
+    rgba(172, 196, 104, 0.829)
   );
   height: 100%;
   position: fixed;
@@ -283,13 +283,3 @@ i:hover {
 .sparkle {
   color: #f8f8f2;
 }
-
-@media
-
-/* #profile-img {
-    margin-top: 25px;
-    float: left;
-    shape-outside: circle(50%);
-    height: 400px;
-    width: 400px;
-  } */
